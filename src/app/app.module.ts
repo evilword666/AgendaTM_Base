@@ -16,7 +16,7 @@ import { SQLite } from '@ionic-native/sqlite';
 import { BackgroundMode } from '@ionic-native/background-mode';
 
 import { NativeAudio } from '@ionic-native/native-audio';
-
+import { Push } from '@ionic-native/push';
 
 
 @NgModule({
@@ -48,6 +48,7 @@ import { NativeAudio } from '@ionic-native/native-audio';
     BackgroundMode,
     SQLite,      
     NativeAudio,  
+    Push, 
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     DatabaseProvider
   ]
